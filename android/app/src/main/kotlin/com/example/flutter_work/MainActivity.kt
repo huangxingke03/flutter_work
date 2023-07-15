@@ -16,11 +16,11 @@ class MainActivity : FlutterActivity() {
     val C_NAME = "com.example.flutter_work/getBatteryLevel"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        findViewById<Button>(R.id.button1).setOnClickListener {
-         val batteryLevel = getBatteryLevel()
-          Log.d("电量","-------$batteryLevel")
-        }
+//        setContentView(R.layout.activity_main)
+//        findViewById<Button>(R.id.button1).setOnClickListener {
+//         val batteryLevel = getBatteryLevel()
+//          Log.d("电量","-------$batteryLevel")
+//        }
     }
 
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
